@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 0, 0, 0);
 }
 
 a {
@@ -46,14 +46,21 @@ button:hover{
     background-size: cover;
     position: absolute;
     background-attachment: fixed;
+    background-position: center;
 }
 
 
 .bannercoso{
+    /*imagen mal llamada banner*/
     position: absolute;
     z-index: 1;
     opacity: 0.5;
+    object-fit:cover ;
 }    
+.bannercoso img{
+    text-align: center;
+
+}
 .negro{
     position: absolute;
 
@@ -157,7 +164,7 @@ button:hover{
 .wrapper {
     order: 2;
     align-items: end;
- margin-left: 100px;
+    margin-left: 100px;
     display: grid;
 }
 
@@ -186,6 +193,7 @@ button:hover{
     grid-column: 2;
     grid-row: 2;
 }
+
 .marcas{
     order: 3;
 }
@@ -361,4 +369,8 @@ li{
 .bodykits img{
     border-radius: 25px;
     padding: 10px;
+}
+
+/*cambios para entrega 2*/
+.idtabla button{
 }
