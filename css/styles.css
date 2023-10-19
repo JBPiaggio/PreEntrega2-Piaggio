@@ -386,22 +386,29 @@ li {
 
 }
 
-.nose {
-    position: relative;
-    left: 170px;
+.divselectores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto; 
 }
 
 .bodykits {
     margin-top: 20px;
     position: relative;
-    left: 110px;
     padding: 50px;
     color: #ffffff;
-    display: flex;
     background-color: #000000a6;
     border-radius: 50px;
     border: 10px solid #ffffff;
+    max-width: 1500px;
 
+    display: flex;
+    flex-direction:row ; /* Alinea los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    text-align: center; /* Centra el texto horizontalmente (opcional) */
+    height: 100vh; 
 }
 
 .bodykits img {
