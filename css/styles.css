@@ -46,6 +46,7 @@ button:hover{
     background-size: cover;
     position: absolute;
     background-attachment: fixed;
+    background-position: center;
 }
 
 
@@ -53,7 +54,11 @@ button:hover{
     position: absolute;
     z-index: 1;
     opacity: 0.5;
+    object-fit: cover;
 }    
+.bannercoso img{
+    text-align: center;
+}
 .negro{
     position: absolute;
 
@@ -106,7 +111,7 @@ button:hover{
 }
 
 
-
+/*
 .teibol {
     margin-top: 80px;
     border: 10px solid #ffffff;
@@ -127,7 +132,7 @@ button:hover{
     color: rgb(255, 255, 255);
     background-color: #000000;
 }
-
+*/
 
 
 .fute {
@@ -361,4 +366,12 @@ li{
 .bodykits img{
     border-radius: 25px;
     padding: 10px;
+}
+/*cambios para segunda entrega*/
+.botonmenu{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+}
+.container-botones{
+    background-color: #0000006d;
 }
