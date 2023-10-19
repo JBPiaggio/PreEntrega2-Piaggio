@@ -5,14 +5,21 @@
     background-color: rgba(255, 255, 255, 0);
 }
 
+body{
+    background-color: #ff000096; /* Fondo de la página */
+    margin: 0;
+}
+
 a {
     text-decoration: none;
     background-color: #00000000;
 }
-button{
+
+button {
     border-radius: 50px;
     background-color: #ffffff;
 }
+
 .botonestop button {
     border: 2px solid #000000;
     color: #000000;
@@ -20,7 +27,8 @@ button{
     font-size: 10px;
 
 }
-button:hover{
+
+button:hover {
     transition-duration: 0.4s;
 
     color: #ffffff;
@@ -31,7 +39,7 @@ button:hover{
     scale: 150%;
     margin-right: 70px;
     transition-duration: 0.4s;
-    
+
     background-color: rgba(240, 248, 255, 0);
     z-index: 2;
 }
@@ -39,7 +47,7 @@ button:hover{
 
 
 .Main {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     margin: 0 auto;
     background-image: url("../medios\ entrega\ 1/banner.jpg");
@@ -50,16 +58,18 @@ button:hover{
 }
 
 
-.bannercoso{
+.bannercoso {
     position: absolute;
     z-index: 1;
     opacity: 0.5;
     object-fit: cover;
-}    
-.bannercoso img{
+}
+
+.bannercoso img {
     text-align: center;
 }
-.negro{
+
+.negro {
     position: absolute;
 
 }
@@ -67,7 +77,7 @@ button:hover{
 .Header {
     overflow: hidden;
     min-height: 150px;
-/*
+    /*
     background-image: url("../medios\ entrega\ 1/banner2.jpg");
 */
     background-size: cover;
@@ -162,7 +172,7 @@ button:hover{
 .wrapper {
     order: 2;
     align-items: end;
- margin-left: 100px;
+    margin-left: 100px;
     display: grid;
 }
 
@@ -191,10 +201,12 @@ button:hover{
     grid-column: 2;
     grid-row: 2;
 }
-.marcas{
+
+.marcas {
     order: 3;
 }
-.inpu{
+
+.inpu {
     margin-left: 1700px;
     display: flex;
     flex-direction: column;
@@ -202,40 +214,48 @@ button:hover{
     order: 4;
     position: absolute;
 }
-.botonbol{
+
+.botonbol {
     color: #000000;
     background-color: #ffffff;
     margin-left: 50px;
 }
-.foro{
+
+.foro {
     background-color: #ffffff;
 }
-.inputext{
+
+.inputext {
     color: #ffffff;
     background-color: #000000;
 }
-.marcas{
+
+.marcas {
     margin-left: 120px;
     margin-top: 10px;
     scale: 130%;
 }
-.imggg{
+
+.imggg {
     margin-top: 120px;
     margin-left: 20px;
     border-radius: 15px;
 
 }
-.portada{
+
+.portada {
     margin-top: 50px;
     border-radius: 50px;
 }
-.miniaturas{
+
+.miniaturas {
     margin-top: 50px;
     max-height: 500px;
     max-width: 470px;
     overflow: scroll;
 }
-.todagaleria{
+
+.todagaleria {
     margin-left: 170px;
     margin-top: 25px;
     justify-content: center;
@@ -245,6 +265,7 @@ button:hover{
     border-radius: 50px;
     padding: 10px;
 }
+
 .tablacarrito {
     color: #ffffff;
     margin-top: 50px;
@@ -255,48 +276,59 @@ button:hover{
     max-width: 1500px;
     max-height: 200px;
 }
-.botoncarrito{
+
+.botoncarrito {
     background-color: #ffffff;
 }
-.tablacarrito img{
+
+.tablacarrito img {
     border-radius: 15px;
 }
-.tablacarrito td{
-padding: 20px;
+
+.tablacarrito td {
+    padding: 20px;
 }
-.resumenpedido{
+
+.resumenpedido {
     bottom: 10px;
     background-color: rgba(0, 0, 0, 0.774);
     position: relative;
     left: 90px;
     overflow: hidden;
 }
-.orden{
+
+.orden {
     display: flex;
 }
-li{
+
+li {
     color: #ffffff;
     list-style: none;
     padding: 20px;
 }
+
 /* padding: arriba derecha abajo izquierda*/
 
-.total{
+.total {
     scale: 150%;
     margin-left: 130px;
 }
-.resumenpedido button{
+
+.resumenpedido button {
     margin-top: 20px;
     margin-left: 90px;
 }
-.medio{
+
+.medio {
     margin-left: 100px;
     padding: 0px 100px 100px 0px;
 }
-.medio1{
+
+.medio1 {
     margin-bottom: 1000px;
 }
-.navabout{
+
+.navabout {
     align-items: center;
     margin-bottom: 50px;
     padding: 0px 100px 100px 0px;
@@ -307,22 +339,25 @@ li{
     max-width: 2500px;
     margin-left: 50px;
 }
-.navfoto{
+
+.navfoto {
     display: flex;
     flex-direction: row;
     margin-top: 10px;
 }
 
-.loremcoso{
+.loremcoso {
     color: #ffffff;
     font-size: 190%;
 }
-.mapa{
+
+.mapa {
     position: absolute;
     left: 100%;
-    
+
 }
-.selectores{
+
+.selectores {
     margin-top: 20px;
     border: 10px solid #ffffff;
     background-color: #000000c4;
@@ -330,28 +365,33 @@ li{
     color: aliceblue;
     overflow: hidden;
 
-    
+
 }
-.selector{
+
+.selector {
     color: #ffffff;
     background-color: rgb(124, 124, 124);
 
 }
-.botonselector{
+
+.botonselector {
     position: relative;
     left: 560px;
     margin-top: 50px;
 }
-.selectores td{
+
+.selectores td {
     padding-left: 100px;
     padding-right: 100px;
 
 }
-.nose{
+
+.nose {
     position: relative;
     left: 170px;
 }
-.bodykits{
+
+.bodykits {
     margin-top: 20px;
     position: relative;
     left: 110px;
@@ -363,15 +403,58 @@ li{
     border: 10px solid #ffffff;
 
 }
-.bodykits img{
+
+.bodykits img {
     border-radius: 25px;
     padding: 10px;
 }
+
 /*cambios para segunda entrega*/
+/*
 .botonmenu{
     display: grid;
     grid-template-columns: 100px 100px 100px 100px;
 }
 .container-botones{
     background-color: #0000006d;
+} */
+.container-botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    grid-gap: 80px;
+    background-color: #00000096;
+    max-width: 65vw;
+    margin: 100px auto; 
+    border-radius: 25px;
+    border-style: solid;
+    border-color:#ffffff ;
+}
+@media (max-width: 400px){
+    .container-botones {
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 100px;
+        grid-gap: 10px;
+        margin-top: 10px;
+        scale: 85%;
+    }
+    .botonestop {
+        scale: 150%;
+        margin-right: 0px;
+
+    }
+    
+}
+
+.botonmenu {
+    text-align: center;
+}
+
+.botonmenu button {
+    height: 70px;
+    width: 120px;
 }
