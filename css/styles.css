@@ -163,6 +163,7 @@ body {
 .tablafooter {
     border-spacing: 20px;
 } */
+
 footer {
     bottom: 0;
     left: 0;
@@ -174,6 +175,9 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     padding: 20px;
+}
+.fixed{
+    position: fixed;
 }
 
 p, a{
@@ -231,6 +235,44 @@ p, a{
     }
 }
 /*Index*/
+.Main{
+    padding-top: 3vw;
+}
+.botonmenu{
+    width: 120px;
+    height: 70px;
+}
+.fondo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-botones{
+    row-gap: 5vw;
+    column-gap: 5vw;
+    padding: 5vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #00000093;
+    border: solid 7px white;
+    border-radius: 50px;
+}
+@media (min-width: 800px) {
+    .container-botones{
+        max-height: 500px;
+        padding: 1vw;
+    }
+}
+@media (max-width: 800px) {
+    .container-botones{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 400px) {
+    .container-botones{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 /*Bodykits*/
 .flex-selectores {
     padding: 100px;
